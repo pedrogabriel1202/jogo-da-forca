@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:padding="16dp"
+    android:orientation="vertical"
+    android:background="@drawable/img">
+
+
+    <TextView
+        android:id="@+id/textTentativas"
+        android:layout_width="272dp"
+        android:layout_height="127dp"
+        android:fontFamily="@font/font"
+        android:text="Tentativas Restantes: 6"
+        android:textColor="@color/black"
+        android:textSize="45sp" />
+
+    <ImageView
+        android:id="@+id/boneco"
+        android:layout_width="112dp"
+        android:layout_height="124dp"
+        android:src="@drawable/inteiro" />
+
+    <TextView
+        android:id="@+id/textOculto"
+        android:layout_width="236dp"
+        android:layout_height="70dp"
+        android:layout_marginTop="20dp"
+        android:text="______"
+        android:textSize="30sp"
+        android:textColor="@color/black"/>
+
+    <EditText
+        android:id="@+id/editEntrada"
+        android:layout_width="411dp"
+        android:layout_height="89dp"
+        android:layout_marginTop="20dp"
+        android:fontFamily="@font/font"
+        android:hint="Digite Uma Letra"
+        android:textColorHint="@color/black"
+        android:inputType="text"
+        android:maxLength="1"
+        android:textSize="30sp" />
+
+    <Button
+        android:id="@+id/buttonAdivinhar"
+        android:layout_width="159dp"
+        android:layout_height="61dp"
+        android:layout_marginTop="20dp"
+        android:background="@drawable/i" />
+
+    <TextView
+        android:id="@+id/textStatus"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text=""
+        android:textSize="20sp"
+        android:layout_marginTop="20dp"/>
+
+    <Button
+        android:id="@+id/buttonrei"
+        android:layout_width="wrap_content"
+        android:layout_height="73dp"
+        android:layout_gravity="center_horizontal"
+        android:enabled="false"
+        android:text="reiniciar"
+        android:textColor="@color/white"
+        android:background="@color/black"
+        android:fontFamily="@font/font"
+        android:textSize="20sp"/>
+</LinearLayout>
